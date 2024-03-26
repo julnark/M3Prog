@@ -4,6 +4,7 @@ include_once "functions.php";
 
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@ include_once "functions.php";
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
     <div class="result">
         <?php echo "5 + 6 = <span class='green'>" . add(5, 6) . "</span><br>"; ?>
@@ -25,4 +27,5 @@ include_once "functions.php";
         <?php echo "Kosten naar Kiev zijn : €<span class='orange'>" . number_format(berekenRitkosten(1991, 18.47, 2.23), 2) . "</span><br>"; ?>
     </div>
 </body>
+
 </html>

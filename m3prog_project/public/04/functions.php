@@ -29,10 +29,10 @@ function multiply($getal7, $getal8)
     return $mult;
 };
 
-function berekenRitkosten($afstand_km, $km_per_liter, $liter_prijs){
+function berekenRitkosten($afstand_km, $km_per_liter, $liter_prijs)
+{
     $kosten_euro = 0;
     $aantal_liters = $afstand_km / $km_per_liter;
     $kosten_euro = $aantal_liters * $liter_prijs;
     return $kosten_euro;
-    
 };

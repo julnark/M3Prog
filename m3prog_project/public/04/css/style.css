@@ -1,22 +1,27 @@
 .result {
-    color: #333; /* donkere tekstkleur */
-    font-size: 18px; /* lettergrootte */
-    margin-bottom: 10px; /* ruimte onder elke regel */
+    color: #333;
+    /* donkere tekstkleur */
+    font-size: 18px;
+    /* lettergrootte */
+    margin-bottom: 10px;
+    /* ruimte onder elke regel */
 }
 
-body{
+body {
     background: linear-gradient(to left, #4ac29a, #bdfff3);
 }
 
 .green {
-    color: green; /* groene tekstkleur */
+    color: green;
+    /* groene tekstkleur */
 }
 
 .blue {
-    color: blue; /* blauwe tekstkleur */
+    color: blue;
+    /* blauwe tekstkleur */
 }
 
 .orange {
-    color: orange; /* oranje tekstkleur */
+    color: orange;
+    /* oranje tekstkleur */
 }
-
