@@ -14,4 +14,3 @@ echo "$auto2";
 echo "<br>$_naam";
 echo "<br>$naw";
 echo "<br>$kleuVanAuto";
-?>

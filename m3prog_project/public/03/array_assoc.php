@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Associatieve Arrays</title>
 </head>
+
 <body>
     <table>
         <tr>
@@ -50,14 +52,15 @@
     $overmorgen = "Donderdag";
     $graden3 = 12;
     ?>
-    
-    <p>Vandaag is het <?=$vandaag;?> en is het <?=$graden;?> graden </p>
-    <p>Vandaag is het <?=$morgen;?> en is het <?=$graden1;?> graden </p>
-    <p>Vandaag is het <?=$gister;?> en is het <?=$graden2;?> graden </p>
-    <p>Vandaag is het <?=$overmorgen;?> en is het <?=$graden3;?> graden </p>
+
+    <p>Vandaag is het <?= $vandaag; ?> en is het <?= $graden; ?> graden </p>
+    <p>Vandaag is het <?= $morgen; ?> en is het <?= $graden1; ?> graden </p>
+    <p>Vandaag is het <?= $gister; ?> en is het <?= $graden2; ?> graden </p>
+    <p>Vandaag is het <?= $overmorgen; ?> en is het <?= $graden3; ?> graden </p>
     <?php
     $dagen = ['Maandag' => 13, 'Dinsdag' => 15, 'Woensdag' => 14, 'Donderdag' => 12, 'Vrijdag' => 12, 'Zaterdag' => 9, 'Zondag' => 11];
-    print_r ($dagen);
+    print_r($dagen);
     ?>
 </body>
+
 </html>

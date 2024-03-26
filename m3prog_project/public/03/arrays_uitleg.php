@@ -1,5 +1,5 @@
 <?php
-$games = ["Rocket league","Phasmo","GTA","roblox","fortnite"];
+$games = ["Rocket league", "Phasmo", "GTA", "roblox", "fortnite"];
 print_r($games);
 echo "<br>";
 echo $games[3];
