@@ -1,4 +1,5 @@
 <?php
+
 function currentDateTime()
 {
     echo date('d-m-Y H:i:s');
